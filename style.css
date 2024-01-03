@@ -63,16 +63,14 @@ body {
 #profile p {
   font-weight: 500;
   line-height: 24px;
-  margin-top: 8px;
+  margin-top: 16px;
 }
 
 #switch {
   position: relative;
   width: 64px;
 
-  margin: 4px auto;
-
-
+  margin: 16px auto;
 
 }
 
@@ -99,14 +97,14 @@ body {
 }
 
 #switch button :hover {
-  outline: 8px solid var(--highlight-color);
+  outline: 16px solid var(--highlight-color);
 }
 
 
 #switch span {
   display: block;
   width: 64px;
-  height: 24px;
+  height: 32px;
   background: var(--surface-color);
   border: 1px solid var(--stroke-color);
   -webkit-backdrop: blur 4px;
